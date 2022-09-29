@@ -16,5 +16,5 @@ results_tfbert = pd.DataFrame({ "Modelo":["Modelo 1", "Modelo 2"],
     "Val. Accuracy":[0.9878,0.8875]
 })
 
-results_tensorflow.to_csv("results_tensorflow.csv")
-results_tfbert.to_csv("results_tfbert.csv")
+results_tensorflow.to_csv("results_tensorflow.csv",index=False,encoding='utf8')
+results_tfbert.to_csv("results_tfbert.csv",index=False,encoding='utf8')
