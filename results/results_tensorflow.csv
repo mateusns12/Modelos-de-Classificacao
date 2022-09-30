@@ -1,6 +1,6 @@
-Modelo,Tempo (s),Loss,Accuracy,Val. Loss,Val. Accuracy
-Modelo 1,19.12,0.202,0.9572,0.553,0.8667
-Modelo 2,84.04,0.0955,0.9704,0.5903,0.8875
-Modelo 3,4.6,0.406,1.0,0.4408,0.955
-Modelo 4,5.56,0.0016,1.0,0.907,0.7866
-Modelo 5,12.7,0.2188,0.9637,0.7273,0.7451
+Modelo,Qtd. Disciplinas,Qtd. Resumos,Qtd. Res. Testes,Tempo (s),Loss,Accuracy,Val. Loss,Val. Accuracy
+Modelo 1,2,74,8,19.12,0.202,0.9572,0.553,0.8667
+Modelo 2,2,398,8,84.04,0.0955,0.9704,0.5903,0.8875
+Modelo 3,2,398,8,4.6,0.406,1.0,0.4408,0.955
+Modelo 4,2,820,8,5.56,0.0016,1.0,0.907,0.7866
+Modelo 5,8,1420,16,12.7,0.2188,0.9637,0.7273,0.7451

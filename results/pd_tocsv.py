@@ -1,6 +1,9 @@
 import pandas as pd
 
 results_tensorflow = pd.DataFrame({ "Modelo":["Modelo 1", "Modelo 2","Modelo 3", "Modelo 4","Modelo 5"],
+    "Qtd. Disciplinas":[2,2,2,2,8],
+    "Qtd. Resumos":[74,398,398,820,1420],
+    "Qtd. Res. Testes":[8,8,8,8,16],
     "Tempo (s)":[19.12,84.04,4.60,5.56,12.70],
     "Loss":[0.2020,0.0955,0.4060,0.0016,0.2188],
     "Accuracy":[0.9572,0.9704,1.0000,1.0000,0.9637],
@@ -9,6 +12,9 @@ results_tensorflow = pd.DataFrame({ "Modelo":["Modelo 1", "Modelo 2","Modelo 3",
 })
 
 results_tfbert = pd.DataFrame({ "Modelo":["Modelo 1", "Modelo 2"],
+    "Qtd. Disciplinas":[2,2],
+    "Qtd. Resumos":[820,820],
+    "Qtd. Res. Testes":[8,8],
     "Tempo (s)":[2082.58,1540.92],
     "Loss":[0.4403,0.0908],
     "Accuracy":[0.8022,0.9603],
